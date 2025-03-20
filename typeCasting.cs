@@ -22,7 +22,7 @@ class typeCasting {
         Console.WriteLine(myInt2);
        
         //we can laso use (Convert.To....)
-        Console.WriteLine(Convert.ToDouble(myInt));
+        Console.WriteLine(Convert.ToInt32(myDouble));
 
     }
 } 
