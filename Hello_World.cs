@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Getting_Started
+class Hello_World
 {
-    internal class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
+        Console.WriteLine("Hello World");
         }
-    }
 }
