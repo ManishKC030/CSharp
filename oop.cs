@@ -18,8 +18,10 @@ class oops {
     static void Main()
     {
        Car myobj = new Car();
+        //we can create multiple objects too
+        Car myobj2 = new Car();
         Console.WriteLine(myobj.color);
-        Console.WriteLine("Your car model is" + myobj.model);
+        Console.WriteLine("Your car model is" +" "+ myobj2.model);
     }
 
 
