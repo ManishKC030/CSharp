@@ -5,9 +5,9 @@ using System;
 class Vehicle // parent class
 {
     public string brand;
-    public string honk()
+    public void honk()
     {
-        return "Tuut, Tuut!";
+        Console.WriteLine("Tuut, Tuut!");
     }
 }
 
@@ -24,7 +24,7 @@ class Inheritance
         Car mycar = new Car();
         mycar.brand = "Ford";
         mycar.name = "Mustang";
-        Console.WriteLine(mycar.name + " " + mycar.brand + " makes sound " + mycar.honk());
-        
+        Console.WriteLine(mycar.name + " " + mycar.brand );
+        mycar.honk();
     }
 }
