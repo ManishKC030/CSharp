@@ -1,9 +1,6 @@
 ﻿//constructor is special method that is automtically called when object of class is created
 
 using System;
-using System.Net.Mail;
-using System.Runtime.InteropServices;
-
 class Car
 {
     public string brand;
