@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Method overloading means multiple methods have same name with different parameters
 
-namespace Getting_Started
+using System;
+
+
+class Method_Overloading
 {
-    internal class Method_Overloading
+    static void addMethod(int a, int b)
     {
+        Console.WriteLine( a + b);
+
+    }
+    static void addMethod(double a, double b)
+        {
+        Console.WriteLine( a + b);
+    }
+ 
+    static void Main()
+    {
+        addMethod(1, 2);
+        addMethod(2.3, 3.0);
+        
     }
 }
