@@ -1,12 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//interface is the another way to achieve abstraction
+//interfaces doesn't conatins access modifiers
 
-namespace Getting_Started
+using System;
+
+interface IAnimal // "I" indicates its and interface, but its not necessary  
 {
-    internal class Interface
+    void animalSound();
+}
+
+class Dog : IAnimal // Dog implements IAnimal interface
+{
+    public void animalSound()
     {
+        Console.WriteLine("Dog barks: Bow Bow");
     }
 }
+class Interface 
+{
+    static void Main()
+    {
+       Dog myDog = new Dog();
+        myDog.animalSound();
+    }
+}
+
+
