@@ -18,7 +18,24 @@ class Private
         Console.WriteLine(secret);
     }
 }
- class Access_Modifier
+
+//protected is accessible in same class and its subclasses
+// protected is acessible by parent and child
+
+class Parent {
+    protected string message = "I am protected message";
+
+}
+
+class Child : Parent
+{
+    public void Display()
+    {
+        Console.WriteLine(message);
+    }
+}
+
+class Access_Modifier
 {
     static void Main()
     {
@@ -31,5 +48,8 @@ class Private
        */
 
         Private newObj = new Private(); // Now accessible due to constructor
+
+        Child obj = new Child();
+        obj.Display();
     }
 }
