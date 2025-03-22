@@ -23,5 +23,6 @@ class constructor {
     {
         Car objcar = new Car(); 
         Console.WriteLine(objcar.brand);
+        Console.WriteLine(objcar.model);
     }
 }
