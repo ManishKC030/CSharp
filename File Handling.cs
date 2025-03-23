@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// we use System.IO namespace, which allows us to work with files
+// File class has many useful methods
 
-namespace Getting_Started
+using System;
+using System.IO;
+
+
+class File_Handling
 {
-    internal class Files_Handling
+    static void main()
     {
+
     }
 }
