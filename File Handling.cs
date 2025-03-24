@@ -7,8 +7,12 @@ using System.IO;
 
 class File_Handling
 {
-    static void main()
+    static void Main()
     {
+        string text = "Hello World!";
+        File.WriteAllText("filename.txt", text); //creates and writes contents of text
 
+        string readText = File.ReadAllText("filename.txt");
+        Console.WriteLine(readText);
     }
 }
