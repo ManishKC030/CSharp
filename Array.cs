@@ -19,5 +19,15 @@ class Array
         // int[] numbers = {10,20,30,40,50};
 
         Console.WriteLine(numbers[3]);
+        Console.WriteLine(numbers[5]);// throws IndexOutOfRange Exception as numbers arrays only has upto 4 index
+
+
+        //Changing elements of an array
+        cars[3] = "Ferrari";
+        for (int i = 0; i < cars.Length; i++)
+        {
+            Console.WriteLine(cars[i]);
+        }
+
     }
 }
