@@ -6,8 +6,10 @@
 using System;
 class ArrayTypes
 {
-    string void Main()
+    static void Main()
     {
-
+        //simplex array
+        int[] number = { 1, 2, 3 };
+        Console.WriteLine(number[0]); //output: 1
     }
 }
