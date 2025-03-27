@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// In C#, there are 3 main types of array
+// 1. Single-Dimensional Array
+// 2. Multi-Demensional Array
+// 3. Jagged Array (Array of Array)
 
-namespace Getting_Started
+using System;
+class ArrayTypes
 {
-    internal class ArrayTypes
+    string void Main()
     {
+
     }
 }
