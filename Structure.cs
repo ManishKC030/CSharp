@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
-class Structure
+struct Students
 {
-static void Main()
-    {
+    public string Name;
+    public int Age;
+    public double Marks;
 
-    }
+
 }
+
 
