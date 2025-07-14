@@ -22,7 +22,7 @@ class Program
     static void Main()
     {
         Person p = new Person();
-        p.SetName("Manish");              
-        Console.WriteLine("My name is " + p.GetName()); // Updated line
+        p.SetName("Slim Shady");              
+        Console.WriteLine("My name is chicka chicka " + p.GetName()); // Updated line
     }
 }
