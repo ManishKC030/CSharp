@@ -22,7 +22,7 @@ class Program
     static void Main()
     {
         Person p = new Person();
-        p.SetName("Manish");              // setting value safely
-        Console.WriteLine(p.GetName());   // getting value safely
+        p.SetName("Manish");              
+        Console.WriteLine("My name is " + p.GetName()); // Updated line
     }
 }
